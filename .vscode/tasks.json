@@ -1,0 +1,12 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Rojo: Watch Sourcemap",
+      "type": "shell",
+      "command": "rokit run rojo sourcemap --watch default.project.json --output sourcemap.json --include-non-scripts",
+      "isBackground": true,
+      "problemMatcher": []
+    }
+  ]
+}

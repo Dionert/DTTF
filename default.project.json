@@ -1,0 +1,27 @@
+{
+  "name": "DontTouchTheFloor",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "ReplicatedStorage/Shared"
+      }
+    },
+
+    "ServerScriptService": {
+      "Server": {
+        "$path": "ServerScriptService/Server"
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "Client": {
+          "$path": "StarterPlayer/StarterPlayerScripts/Client"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "name": "DontTouchTheFloor",
+  "className": "DataModel",
+  "filePaths": [
+    "default.project.json"
+  ],
+  "children": [
+    {
+      "name": "ReplicatedStorage",
+      "className": "ReplicatedStorage",
+      "children": [
+        {
+          "name": "Shared",
+          "className": "Folder",
+          "children": [
+            {
+              "name": "Config",
+              "className": "ModuleScript",
+              "filePaths": [
+                "ReplicatedStorage/Shared/Config.lua"
+              ]
+            },
+            {
+              "name": "Enums",
+              "className": "ModuleScript",
+              "filePaths": [
+                "ReplicatedStorage/Shared/Enums.lua"
+              ]
+            },
+            {
+              "name": "Network",
+              "className": "ModuleScript",
+              "filePaths": [
+                "ReplicatedStorage/Shared/Network.lua"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ServerScriptService",
+      "className": "ServerScriptService",
+      "children": [
+        {
+          "name": "Server",
+          "className": "Folder",
+          "children": [
+            {
+              "name": "Main",
+              "className": "Script",
+              "filePaths": [
+                "ServerScriptService/Server/Main.server.lua"
+              ]
+            },
+            {
+              "name": "Services",
+              "className": "Folder",
+              "children": [
+                {
+                  "name": "ArenaService",
+                  "className": "ModuleScript",
+                  "filePaths": [
+                    "ServerScriptService/Server/Services/ArenaService.lua"
+                  ]
+                },
+                {
+                  "name": "DataService",
+                  "className": "ModuleScript",
+                  "filePaths": [
+                    "ServerScriptService/Server/Services/DataService.lua"
+                  ]
+                },
+                {
+                  "name": "HitService",
+                  "className": "ModuleScript",
+                  "filePaths": [
+                    "ServerScriptService/Server/Services/HitService.lua"
+                  ]
+                },
+                {
+                  "name": "LeaderboardService",
+                  "className": "ModuleScript",
+                  "filePaths": [
+                    "ServerScriptService/Server/Services/LeaderboardService.lua"
+                  ]
+                },
+                {
+                  "name": "LobbyService",
+                  "className": "ModuleScript",
+                  "filePaths": [
+                    "ServerScriptService/Server/Services/LobbyService.lua"
+                  ]
+                },
+                {
+                  "name": "PlayerService",
+                  "className": "ModuleScript",
+                  "filePaths": [
+                    "ServerScriptService/Server/Services/PlayerService.lua"
+                  ]
+                },
+                {
+                  "name": "RoundService",
+                  "className": "ModuleScript",
+                  "filePaths": [
+                    "ServerScriptService/Server/Services/RoundService.lua"
+                  ]
+                },
+                {
+                  "name": "TileService",
+                  "className": "ModuleScript",
+                  "filePaths": [
+                    "ServerScriptService/Server/Services/TileService.lua"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Util",
+              "className": "Folder",
+              "children": [
+                {
+                  "name": "Difficulty",
+                  "className": "ModuleScript",
+                  "filePaths": [
+                    "ServerScriptService/Server/Util/Difficulty.lua"
+                  ]
+                },
+                {
+                  "name": "Effects",
+                  "className": "ModuleScript",
+                  "filePaths": [
+                    "ServerScriptService/Server/Util/Effects.lua"
+                  ]
+                },
+                {
+                  "name": "PartFactory",
+                  "className": "ModuleScript",
+                  "filePaths": [
+                    "ServerScriptService/Server/Util/PartFactory.lua"
+                  ]
+                },
+                {
+                  "name": "Retry",
+                  "className": "ModuleScript",
+                  "filePaths": [
+                    "ServerScriptService/Server/Util/Retry.lua"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "StarterPlayer",
+      "className": "StarterPlayer",
+      "children": [
+        {
+          "name": "StarterPlayerScripts",
+          "className": "StarterPlayerScripts",
+          "children": [
+            {
+              "name": "Client",
+              "className": "Folder",
+              "children": [
+                {
+                  "name": "Controllers",
+                  "className": "Folder",
+                  "children": [
+                    {
+                      "name": "SoundController",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "StarterPlayer/StarterPlayerScripts/Client/Controllers/SoundController.lua"
+                      ]
+                    },
+                    {
+                      "name": "UIController",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "StarterPlayer/StarterPlayerScripts/Client/Controllers/UIController.lua"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Main",
+                  "className": "LocalScript",
+                  "filePaths": [
+                    "StarterPlayer/StarterPlayerScripts/Client/Main.client.lua"
+                  ]
+                },
+                {
+                  "name": "UI",
+                  "className": "Folder",
+                  "children": [
+                    {
+                      "name": "UIBuilder",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "StarterPlayer/StarterPlayerScripts/Client/UI/UIBuilder.lua"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

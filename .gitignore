@@ -1,0 +1,13 @@
+# Roblox Studio / Rojo generated files
+*.rbxl
+*.rbxlx
+*.rbxm
+*.rbxmx
+*.rbxl.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs / temporary files
+*.log
